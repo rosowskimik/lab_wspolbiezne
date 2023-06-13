@@ -133,6 +133,7 @@ go.work
 *
 !*/
 !*.*
+!LICENSE
 .cache/
 filozof/
 compile_commands.json

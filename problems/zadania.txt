@@ -1,0 +1,62 @@
+Wszędzie mają być wykorzystane elementy synchronizacji bez aktywnego czekania
+Zakładamy że problemy teoretycznie mogą być wykonywane w nieskończoność (nie ma typowego warunku stopu)
+Zakładamy że liczba bohaterów jest ustalona z góry (liczba procesów ograniczona z góry i jest nam znana)
+
+Jeden problem na semaforach i ciężkich procesach
+    Przyjąć że jest jeden proces STARTER dla ułatwienia sobie życia
+Jeden problem na wątkach i POSIX
+Jeden problem w cpp
+Jeden problem w GO
+
+1. Pasterz i owce
+    1 proces pasterza
+    N procesów owcy
+
+    Owce nie mogą przekroczyć dystansu K od pasterza
+
+2. Spacer rodzinny
+    (odwrotność pasterza i owiec)
+    X procesów młodych
+    Y procesów starszych
+
+    dystans pomiędzy K
+    spacer ma odległość D
+
+    musi istnieć odległość pomiędzy procesami młodymi a starszymi
+
+3. Choinka świąteczna
+    1 proces mikołaja
+    X procesów skrzatów
+
+    n poziomowe rusztowanie
+    wytrzymałość każdego poziomu ma wytrzymałość k_i, 
+
+    program może się skończyć gdy rusztowania się skończą
+
+4. Synteza wody
+
+5. Święty mikołaj
+    1 Mikołaj
+    9 reniferów (min 9 do obsługi)
+    10 skrzatów (min 3 do obsługi)
+
+    obsługa reniferów > obsługa skrzatów
+
+6. Diabelska kolejka
+    P - liczba pasażerów / ilość miejsc wagonika
+    N - liczba wszystkich użytkowników 
+
+    Kolejka może ruszyć tylko kiedy jest pełna
+
+7. Port morski
+    Każdy statek ma zdefinowaną INDYWIDUALNĄ liczbę wymaganych holowników żeby wpłynąć do portu
+    (istnieją statki większe i mniejsze)
+
+    statki === procesy
+
+8. Wiszący most
+    SUGESTIA: zamknięta lista procesów (turysta porusza się z północy na południe 
+        to wracając będzie poruszać się w drugą stronę)
+    
+
+

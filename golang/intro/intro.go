@@ -5,10 +5,6 @@ import (
 	"time"
 )
 
-func (x X) Get_x() {
-	return x.x
-}
-
 func say(s string) <-chan struct{} {
 	ch := make(chan struct{}, 1)
 

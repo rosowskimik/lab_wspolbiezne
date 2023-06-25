@@ -1,3 +1,3 @@
-module atoms
+module problems
 
 go 1.20
